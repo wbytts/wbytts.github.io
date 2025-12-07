@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.M29YX9ER.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"python/README.md","filePath":"python/README.md"}'),o={name:"python/README.md"};function n(r,s,c,p,_,d){return a(),e("div")}const E=t(o,[["render",n]]);export{m as __pageData,E as default};
