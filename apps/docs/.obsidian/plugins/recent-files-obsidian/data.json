@@ -5,14 +5,6 @@
       "path": "obsidian-assets/daily-note/2025-12-07.md"
     },
     {
-      "basename": "api-examples",
-      "path": "api-examples.md"
-    },
-    {
-      "basename": "AGENTS.md",
-      "path": "AGENTS.md.md"
-    },
-    {
       "basename": "文章：How we built our multi-agent research system",
       "path": "000~AI/Agent 开发/理论知识/多 Agent/文章：How we built our multi-agent research system.md"
     },
@@ -195,10 +187,6 @@
     {
       "basename": "Java 的历史",
       "path": "编程学习/Java/001~JavaSE/001~基础知识/Java 的历史.md"
-    },
-    {
-      "basename": "命令行编译并运行 Java 程序",
-      "path": "编程学习/Java/001~JavaSE/001~基础知识/命令行编译并运行 Java 程序.md"
     }
   ],
   "omittedPaths": [],
