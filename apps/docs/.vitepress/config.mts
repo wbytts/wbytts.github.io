@@ -3,20 +3,21 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "冰冰的笔记",
-  description: "BingBingNote",
+  description: "OneNote",
   base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'FrontEnd', link: '/front-end' },
+      { text: '首页', link: '/' },
+      { text: '前端', link: '/front-end' },
       { text: 'AI', link: '/ai' },
-      { text: 'Go', link: '/go' },
-      { text: 'Rust', link: '/rust' },
-      { text: 'Java', link: '/java' },
       { text: 'Python', link: '/python' },
-      { text: 'MyProjects', link: '/projects' },
-      { text: 'OpenProjects', link: '/open-projects' },
+      { text: 'Rust', link: '/rust' },
+      // { text: 'Go', link: '/go' },
+      // { text: 'Java', link: '/java' },
+      // { text: '项目', link: '/projects' },
+      // { text: '开源项目', link: '/open-projects' },
+      // { text: '其他', link: '/other' },
     ],
 
     sidebar: [

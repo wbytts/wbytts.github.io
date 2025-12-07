@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "d0617d4f5ee8b777",
+    "type": "split",
+    "children": [
+      {
+        "id": "728a32e63d81381b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ead979545cd31c01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian-assets/daily-note/2025-12-07.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-07"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67c2d4e666c85e08",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4a480824c5655c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6fd6fa6185b1eb5",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          },
+          {
+            "id": "70b9ac6dd97c2a45",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6365dd060855fd38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Obsidian",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "17844152e2dcf961",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 335
+  },
+  "right": {
+    "id": "d5abe7fdb0db07fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "8455ff7db6a9f62e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344feba2b6f76293",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian-assets/daily-note/2025-12-01.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2025-12-01 的大纲"
+            }
+          },
+          {
+            "id": "6ce87e6d4918ed1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f651b4f9528a4718",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smtcmp-chat-view"
+            }
+          },
+          {
+            "id": "7b05748be4cabe29",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "bd70fb7b9265b764",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian-assets/daily-note/2025-12-01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025-12-01 的反向链接列表"
+            }
+          },
+          {
+            "id": "c3f5f1add3d1a321",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "教程学习/知识星球/代码随想录/漫游.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "漫游 的出链列表"
+            }
+          },
+          {
+            "id": "a6840021c298c48a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c316f6319db62807",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "BC-matrix"
+            }
+          },
+          {
+            "id": "2e399801310c2bcb",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "BC-tree"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "publish:发布更改": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "obsidian-importer:Open Importer": false,
+      "vitepress-publisher:start vitepress": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "ead979545cd31c01",
+  "lastOpenFiles": [
+    "api-examples.md",
+    "AGENTS.md.md",
+    "obsidian-assets/daily-note/2025-12-07.md",
+    "obsidian-assets/daily-note/2025-12-07.md.nssyncsc",
+    "000~AI/Agent 开发/理论知识/构建 Agent 的第一性原理.md",
+    "000~AI/Agent 开发/理论知识/多 Agent/文章：How we built our multi-agent research system.md",
+    "000~AI/Agent 开发/理论知识/Agent 的组成.md",
+    "000~AI/Agent 开发/理论知识/Agent 开发笔记.md",
+    "000~AI/Agent 开发/理论知识/选择 单Agent还是多Agent.md",
+    "000~AI/Agent 开发/理论知识/多 Agent",
+    "000/Drawing~【】~2025-03-31 22.32.14.excalidraw.md",
+    "obsidian-assets/attachments/Pasted image 20251207212345.png",
+    "网址收藏/B站UP/学习.md",
+    "网址收藏/B站UP/算法UP.md",
+    "000/B站学习清单.md",
+    "000~AI/目前付费.md",
+    "000~AI/网页对话.md",
+    "教程学习/极客时间/极客时间训练营-AI编程实战营/000.md",
+    "000~AI/TOOL/CLI 工具/Claude Code/中转服务/yes-code.md",
+    "教程学习/极客时间/极客时间训练营-AI编程实战营",
+    "000~AI/TOOL/CLI 工具/Claude Code/中转服务/88code.md",
+    "000~AI/TOOL/CLI 工具/Claude Code/中转服务/claude-relay-service.md",
+    "000~AI/资料.md",
+    "000~AI/TOOL/CLI 工具/Claude Code/中转服务",
+    "000~AI/TOOL/CLI 工具/Claude Code/未命名.md",
+    "编程学习/开源项目学习/PagePlug/000.md",
+    "编程学习/开源项目学习/PagePlug",
+    "000~AI/Agent 开发/开发框架/Eino",
+    "000~AI/LLM/minimand",
+    "000~AI/LLM",
+    "000/TEMP.md",
+    "obsidian-assets/daily-note/2025-12-06.md",
+    "面试 & 考试/软考~软件设计师/0009~计算机可靠性.md",
+    "000~AI/TOOL/编码 IDE/Cursor/000.md",
+    "000~AI/TOOL/编码 IDE/Cursor/000.md.nssyncsc",
+    "000~AI/TOOL/编码 IDE/Qoder/000_坚果云闪电下载介绍.html.nssyncsc",
+    "obsidian-assets/attachments/Pasted image 20251205173410.png",
+    "obsidian-assets/attachments/Pasted image 20251205173306.png",
+    "000~AI/TOOL/编码 IDE/windsurf/什么是 Turbo 模式.md",
+    "obsidian-assets/attachments/Pasted image 20251204014606.png",
+    "obsidian-assets/attachments/Pasted image 20251204013949.png",
+    "obsidian-assets/attachments/Pasted image 20251201054232.png",
+    "obsidian-assets/attachments/Pasted image 20251201054217.png",
+    "obsidian-assets/attachments/Pasted image 20251201054110.png",
+    "obsidian-assets/attachments/Pasted image 20251201054038.png",
+    "obsidian-assets/attachments/Pasted image 20251201054024.png",
+    "编程学习/前端/009~JS工具/未命名.canvas"
+  ]
+}

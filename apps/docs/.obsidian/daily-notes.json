@@ -1,0 +1,6 @@
+{
+  "folder": "obsidian-assets/daily-note",
+  "autorun": true,
+  "template": "obsidian-assets/templates/template~日记",
+  "format": "YYYY-MM-DD"
+}
