@@ -8,10 +8,15 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: '前端基础', link: '/frontend' },
+      { text: 'Home', link: '/' },
+      { text: 'FrontEnd', link: '/front-end' },
       { text: 'AI', link: '/ai' },
+      { text: 'Go', link: '/go' },
+      { text: 'Rust', link: '/rust' },
+      { text: 'Java', link: '/java' },
       { text: 'Python', link: '/python' },
+      { text: 'MyProjects', link: '/projects' }
+      { text: 'OpenProjects', link: '/open-projects' },
     ],
 
     sidebar: [
