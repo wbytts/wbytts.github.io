@@ -1,0 +1,42 @@
+{
+  "name": "@wbytts/utils",
+  "version": "0.1.0",
+  "description": "通用前端工具函数集合",
+  "type": "module",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "pnpm run clean && rollup -c",
+    "dev": "rollup -cw"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "utils",
+    "rollup",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.24.0",
+    "typescript": "~5.6.3"
+  }
+}
