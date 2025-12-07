@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Rust', link: '/rust' },
       { text: 'Java', link: '/java' },
       { text: 'Python', link: '/python' },
-      { text: 'MyProjects', link: '/projects' }
+      { text: 'MyProjects', link: '/projects' },
       { text: 'OpenProjects', link: '/open-projects' },
     ],
 
