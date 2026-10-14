@@ -1,0 +1,41 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes', ({ data }) => !data.draft);
+  return notes.map((note) => ({
+    params: { slug: note.id },
+    props: { note },
+  }));
+}
+
+const { note } = Astro.props;
+const { Content } = await render(note);
+---
+
+<BaseLayout title={note.data.title} description={note.data.description}>
+  <article>
+    <h1>{note.data.title}</h1>
+    <p style="display:flex;gap:0.6rem;align-items:center;flex-wrap:wrap;">
+      <time datetime={note.data.pubDate.toISOString()}>
+        {note.data.pubDate.toISOString().slice(0, 10)}
+      </time>
+      {
+        note.data.updatedDate && (
+          <time datetime={note.data.updatedDate.toISOString()}>
+            （更新于 {note.data.updatedDate.toISOString().slice(0, 10)}）
+          </time>
+        )
+      }
+      {
+        note.data.tags.map((tag) => (
+          <a class="tag" href={`/tags/${tag}/`}>
+            {tag}
+          </a>
+        ))
+      }
+    </p>
+    <Content />
+  </article>
+</BaseLayout>

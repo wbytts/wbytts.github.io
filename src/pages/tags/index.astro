@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const notes = await getCollection('notes', ({ data }) => !data.draft);
+const tagCounts = new Map<string, number>();
+for (const note of notes) {
+  for (const tag of note.data.tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
+  }
+}
+const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="标签" description="按标签浏览笔记">
+  <h1>标签</h1>
+  {
+    tags.length === 0 ? (
+      <p>暂无标签。</p>
+    ) : (
+      <p style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+        {tags.map(([tag, count]) => (
+          <a class="tag" href={`/tags/${tag}/`}>
+            {tag}（{count}）
+          </a>
+        ))}
+      </p>
+    )
+  }
+</BaseLayout>
